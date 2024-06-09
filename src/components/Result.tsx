@@ -1,18 +1,10 @@
 import { Button, Container, List, ListItem, Stack, Typography } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { ClearState } from "../redux/slices";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { countMatchingELements } from "../utils/features";
 
-const result = ["Lol", "Sample", "Ans"];
-const words = [
-  {
-    meaning: "asdfg",
-  },
-  {
-    meaning: "adsfgghtyuj",
-  },
-];
+
 const Result = () => {
     const {words,result} = useSelector((state:{
         root: StateType 

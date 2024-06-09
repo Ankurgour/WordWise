@@ -1,4 +1,4 @@
-import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 import { useNavigate } from "react-router-dom";
 
